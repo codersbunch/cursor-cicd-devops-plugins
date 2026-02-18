@@ -1,0 +1,16 @@
+---
+description: CI/CD pipeline standards for safe and reliable deployments
+alwaysApply: true
+---
+
+pipeline-standards:
+
+- All pipelines must run tests before deploying to any environment
+- Never deploy directly to production without passing staging first
+- Use environment-specific secrets stored in CI secret manager, never in code
+- Tag every production deployment with a semantic version and git SHA
+- Implement automated rollback on health check failure post-deployment
+- Run security scans (SAST, dependency audit) in every pipeline
+- Cache dependencies to reduce build times
+- Use matrix builds to test across multiple runtime versions
+- Keep pipeline configs DRY using reusable workflows or orbs

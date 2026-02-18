@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "sessionEnd": [
+      {
+        "command": "./scripts/trigger-staging-deploy.sh",
+        "description": "Trigger staging deployment at end of session if on a feature branch"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+---
+description: Cloud resource naming and tagging standards for AWS, GCP, and Azure
+alwaysApply: true
+---
+
+cloud-resource-standards:
+
+- Resource names: {project}-{environment}-{resource-type} (e.g., myapp-prod-rds)
+- All resources must have tags: Environment, Project, Owner, CostCenter, ManagedBy=terraform
+- Never use default VPC or default security groups in production
+- All S3 buckets must have versioning enabled and public access blocked
+- IAM roles follow least-privilege - no wildcard (*) actions in production policies
+- All databases must be in private subnets with no public endpoint
+- Enable CloudTrail/Audit Logs on all accounts
+- Use remote state backend (S3+DynamoDB or Terraform Cloud) - never local state in production
+- Pin all provider versions and module versions explicitly

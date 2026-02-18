@@ -1,0 +1,13 @@
+{
+  "name": "iac-expert",
+  "displayName": "Infrastructure as Code Expert",
+  "version": "1.0.0",
+  "description": "Terraform and Pulumi best practices, AWS/GCP/Azure patterns, security misconfiguration checks, and cost estimation.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["terraform", "pulumi", "iac", "aws", "gcp", "azure", "infrastructure", "cloud"],
+  "logo": "assets/logo.svg"
+}

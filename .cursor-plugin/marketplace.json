@@ -1,0 +1,24 @@
+{
+  "name": "cicd-devops-plugins",
+  "owner": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "metadata": {
+    "description": "CI/CD and DevOps plugins for Cursor: Deployment Pipeline Manager and IaC Expert",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "deployment-pipeline-manager",
+      "source": "./plugins/deployment-pipeline-manager",
+      "description": "Write CI/CD configs, manage rollbacks, and trigger deployments"
+    },
+    {
+      "name": "iac-expert",
+      "source": "./plugins/iac-expert",
+      "description": "Terraform/Pulumi best practices, IaC security checks, and cost estimation"
+    }
+  ]
+}

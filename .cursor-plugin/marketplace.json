@@ -1,8 +1,8 @@
 {
   "name": "cicd-devops-plugins",
   "owner": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "metadata": {
     "description": "CI/CD and DevOps plugins for Cursor: Deployment Pipeline Manager and IaC Expert",

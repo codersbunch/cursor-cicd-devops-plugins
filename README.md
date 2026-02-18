@@ -11,7 +11,7 @@ Write GitHub Actions/CircleCI configs, manage rollback strategies, trigger deplo
 Terraform/Pulumi best practices, security misconfiguration checks, cost estimation before apply.
 
 ## Author
-Praveen · praveen@codersbunch.com
+Praveen · praveen@coderbunch.com
 
 ## License
 MIT

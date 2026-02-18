@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Write GitHub Actions and CircleCI configs, manage rollback strategies, and trigger staging/production deployments.",
   "author": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "license": "MIT",
   "keywords": ["cicd", "github-actions", "deployment", "kubernetes", "docker", "devops", "pipeline"],
